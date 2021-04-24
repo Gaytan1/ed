@@ -1,0 +1,24 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+#Analaysis of covid dataset
+## by Edson Mollel
+
+**Part1**
+
+```{r}
+library(readxl)
+covid <- read_excel("covid.xlsx")
+View(covid)    
+head(covid)
+summary(covid)
+```
+
+**Part2**
+The mean speed of car was 15.4
+
+#THE END
+
